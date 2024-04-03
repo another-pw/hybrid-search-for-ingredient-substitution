@@ -1,0 +1,5 @@
+**/__pycache__/
+
+foodbert/data/train_instructions.txt
+foodbert/data/test_instructions.txt
+pretrained_model/model/**
