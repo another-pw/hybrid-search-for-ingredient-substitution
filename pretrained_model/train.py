@@ -4,7 +4,7 @@ import argparse
 from pathlib import Path
 from transformers import BertTokenizer
 from transformers import (
-    AutoModel,
+    AutoModelForMaskedLM,
     TrainingArguments, 
     Trainer,
     LineByLineTextDataset,
@@ -36,7 +36,7 @@ def main():
     elif model_name == 'splade':
         model_id = 'naver/splade-cocondenser-ensembledistil'
 
-    model = AutoModel.from_pretrained(model_id)
+    model = AutoModelForMaskedLM.from_pretrained(model_id)
 
     with Path(used_ingredients_file).open() as f:
         used_ingredients = json.load(f)
