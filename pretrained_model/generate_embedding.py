@@ -1,8 +1,8 @@
-import argparse
 import json
 import torch
 
 from pathlib import Path
+from tqdm import tqdm
 from transformers import BertTokenizer, AutoModelForMaskedLM
 
 # source: https://towardsdatascience.com/build-a-recipe-recommender-chatbot-using-rag-and-hybrid-search-part-i-c4aa07d14dcf
@@ -28,29 +28,16 @@ def to_dense_vector(text, tokenizer, model):
     
     return dense_vector
 
-# source: https://towardsdatascience.com/build-a-recipe-recommender-chatbot-using-rag-and-hybrid-search-part-i-c4aa07d14dcf
-def adjust_vector_weight(sparse_dict, dense_vector, alpha):
-    if alpha < 0 or alpha > 1:
-        raise ValueError("alpha must be between 0 and 1")
-    
-    weighted_sparse_dict = {}
-    for i in sparse_dict.keys():
-        weighted_sparse_dict[i] = sparse_dict[i] * (1 - alpha)  
-
-    weighted_dense_vector = [v * alpha for v in dense_vector]
-    return weighted_dense_vector, weighted_sparse_dict
-
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--model_name_or_path', type=str, required=True)
-
-    args = parser.parse_args()
-    model_name_or_path = args.model_name_or_path
-
     vocab_file = 'foodbert/data/bert-base-cased-vocab.txt'
     used_ingredients_file = 'foodbert/data/used_ingredients.json'
+    sparse_dense_vectors_dict_export_path = 'data/sparse_dense_embeddings.json'
 
-    model = AutoModelForMaskedLM.from_pretrained(pretrained_model_name_or_path=model_name_or_path)
+    bert_output_dir = 'pretrained_model/model/bert_output/checkpoint'
+    splade_output_dir = 'pretrained_model/model/splade_output/checkpoint'
+
+    bert_model = AutoModelForMaskedLM.from_pretrained(pretrained_model_name_or_path=bert_output_dir)
+    splade_model = AutoModelForMaskedLM.from_pretrained(pretrained_model_name_or_path=splade_output_dir)
 
     with Path(used_ingredients_file).open() as f:
         used_ingredients = json.load(f)
@@ -62,7 +49,18 @@ def main():
         never_split=used_ingredients
     )
 
-    print(to_dense_vector(used_ingredients[0], tokenizer, model))
+    sparse_dense_vectors_dict = {}
+    for ingredient in tqdm(used_ingredients, desc='generate sparse-dense embeddings'):
+        sparse_dict = to_sparse_dict(text=ingredient, tokenizer=tokenizer, model=splade_model)
+        dense_vector = to_dense_vector(text=ingredient, tokenizer=tokenizer, model=bert_model)
+
+        sparse_dense_vectors_dict[ingredient] = {
+            'sparse_dict': sparse_dict,
+            'dense_vector': dense_vector.tolist()
+        }
+
+    with open(sparse_dense_vectors_dict_export_path, 'w') as f:
+        json.dump(sparse_dense_vectors_dict, f, indent=2)
 
 if __name__ == '__main__':
     main()
