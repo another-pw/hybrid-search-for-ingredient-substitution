@@ -1,6 +1,8 @@
 **/__pycache__/
 
 data/sparse_dense_embeddings.json
+data/substitute_pairs.json
+
 foodbert/data/train_instructions.txt
 foodbert/data/test_instructions.txt
 pretrained_model/model/**

@@ -6,7 +6,7 @@ from tqdm import tqdm
 from transformers import BertTokenizer, AutoModelForMaskedLM
 
 # source: https://towardsdatascience.com/build-a-recipe-recommender-chatbot-using-rag-and-hybrid-search-part-i-c4aa07d14dcf
-def to_sparse_dict(text, tokenizer, model):
+def to_sparse_vector(text, tokenizer, model):
     tokens = tokenizer(text, return_tensors='pt')
     output = model(**tokens)
     vec = torch.max(
@@ -16,8 +16,9 @@ def to_sparse_dict(text, tokenizer, model):
 
     cols = vec.nonzero().squeeze().cpu().tolist()
     weights = vec[cols].cpu().tolist()
-    sparse_dict = dict(zip(cols, weights))
-    return sparse_dict
+    sparse_vector = dict(zip(cols, weights))
+
+    return sparse_vector
 
 def to_dense_vector(text, tokenizer, model):
     inputs = tokenizer(text, return_tensors="pt")
@@ -50,12 +51,12 @@ def main():
     )
 
     sparse_dense_vectors_dict = {}
-    for ingredient in tqdm(used_ingredients, desc='generate sparse-dense embeddings'):
-        sparse_dict = to_sparse_dict(text=ingredient, tokenizer=tokenizer, model=splade_model)
+    for ingredient in tqdm(used_ingredients, desc='generating sparse-dense embeddings'):
+        sparse_vector = to_sparse_vector(text=ingredient, tokenizer=tokenizer, model=splade_model)
         dense_vector = to_dense_vector(text=ingredient, tokenizer=tokenizer, model=bert_model)
 
         sparse_dense_vectors_dict[ingredient] = {
-            'sparse_dict': sparse_dict,
+            'sparse_vector': sparse_vector,
             'dense_vector': dense_vector.tolist()
         }
 

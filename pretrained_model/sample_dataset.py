@@ -11,7 +11,7 @@ def read_random_lines(file_path, n):
 
 def save_to_file(lines, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
-        for line in tqdm(lines, desc='saving'):
+        for line in tqdm(lines, desc='writing file'):
             file.write(line)
 
 def do_sample(input_file, output_file, num_sample):
