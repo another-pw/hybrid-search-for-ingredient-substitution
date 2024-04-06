@@ -41,6 +41,8 @@ def main():
 
     used_ingredients_file = 'foodbert/data/used_ingredients.json'
     sparse_dense_vectors_dict_file = 'data/sparse_dense_embeddings.json'
+    dense_results_export_path = 'data/dense_results.json'
+    sparse_results_export_path = 'data/sparse_results.json'
     substitute_pairs_export_path = 'data/substitute_pairs.json'
 
     with Path(used_ingredients_file).open() as f:
@@ -66,23 +68,50 @@ def main():
     dense_neighbors.fit(dense_vectors)
     sprase_neighbors.fit(sparse_vectors)
 
-    subtitute_pairs = set()
-    for i in tqdm(range(len(used_ingredients)), desc='matching ingredients'):
-        dense_distance, dense_indices = dense_neighbors.kneighbors(
-            [adjust_dense_vector_weight(dense_vector=dense_vectors[i], alpha=alpha)], 
-            n_neighbors + 1, 
-            return_distance=True
-        )
+    if not Path(sparse_results_export_path).exists():
+        sparse_results = set()
+        for i in tqdm(range(len(used_ingredients)), desc='generating results (sparse)'):
+            sparse_dict = sparse_dense_vectors_dict[used_ingredients[i]]['sparse_vector']
+            weigthed_sparse_dict = adjust_sparse_vector_weight(sparse_dict=sparse_dict, alpha=alpha)
+            weigthed_sparse_vector = sparse_dict_to_vector(sparse_dict=weigthed_sparse_dict)
+            sparse_distance, sparse_indices = sprase_neighbors.kneighbors(
+                [weigthed_sparse_vector], 
+                n_neighbors + 1, 
+                return_distance=True
+            )
 
-        # implement this function
-        fusion()
+            for j, si in enumerate(sparse_indices[0]):
+                if ingredient_names[i] != ingredient_names[si]:
+                    sparse_results.add((ingredient_names[i], ingredient_names[si], sparse_distance[0][j]))
+        
+        with Path(sparse_results_export_path).open('w') as f:
+            json.dump(sorted(sparse_results), f)
 
-        for di in dense_indices[0]:
-            if ingredient_names[i] != ingredient_names[di]:
-                subtitute_pairs.add((ingredient_names[i], ingredient_names[di]))
+        print('saved sparse vector search results')
 
-    with Path(substitute_pairs_export_path).open('w') as f:
-        json.dump(list(sorted(subtitute_pairs)), f)
+    if not Path(dense_results_export_path).exists():
+        dense_results = set()
+        for i in tqdm(range(len(used_ingredients)), desc='generating results (dense)'):
+            weighted_dense_vector = adjust_dense_vector_weight(dense_vector=dense_vectors[i], alpha=alpha)
+            dense_distance, dense_indices = dense_neighbors.kneighbors(
+                [weighted_dense_vector], 
+                n_neighbors + 1, 
+                return_distance=True
+            )
+
+            for j, di in enumerate(dense_indices[0]):
+                if ingredient_names[i] != ingredient_names[di]:
+                    dense_results.add((ingredient_names[i], ingredient_names[di], dense_distance[0][j]))
+
+        with Path(dense_results_export_path).open('w') as f:
+            json.dump(sorted(dense_results), f)
+    
+        print('saved dense vector search results')
+    
+    print('finished')
+    # subtitute_pairs = set()
+    # with Path(substitute_pairs_export_path).open('w') as f:
+    #     json.dump(list(sorted(subtitute_pairs)), f)
 
 if __name__ == '__main__':
     main()
