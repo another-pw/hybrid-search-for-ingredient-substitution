@@ -7,6 +7,6 @@ data/**
 foodbert/data/data/
 foodbert/data/downloads/
 
-foodbert/data/train_instructions.txt
-foodbert/data/test_instructions.txt
+foodbert/data/**train_instructions.txt
+foodbert/data/**test_instructions.txt
 pretrained_model/model/**
