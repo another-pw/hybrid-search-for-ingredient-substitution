@@ -88,7 +88,7 @@ def main():
                 if ingredient_names[i] != ingredient_names[si]:
                     substitutes_and_scores.append(((ingredient_names[si], sparse_distance[0][j])))
 
-            sparse_results[ingredient_names[i]] = substitutes_and_scores
+            sparse_results[ingredient_names[i]] = substitutes_and_scores[:n_neighbors]
 
         with Path(sparse_results_export_path).open('w') as f:
             json.dump(sparse_results, f, indent=2)
@@ -115,7 +115,7 @@ def main():
                 if ingredient_names[i] != ingredient_names[di]:
                     substitutes_and_scores.append(((ingredient_names[di], dense_distance[0][j])))
 
-            dense_results[ingredient_names[i]] = substitutes_and_scores
+            dense_results[ingredient_names[i]] = substitutes_and_scores[:n_neighbors]
         
         with Path(dense_results_export_path).open('w') as f:
             json.dump(dense_results, f, indent=2)
