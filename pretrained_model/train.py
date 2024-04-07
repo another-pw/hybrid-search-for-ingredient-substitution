@@ -7,13 +7,13 @@ from transformers import (
     AutoModelForMaskedLM,
     TrainingArguments, 
     Trainer,
-    LineByLineTextDataset,
-    PreTrainedTokenizer,
     DataCollatorForLanguageModeling
 )
+from datasets import load_dataset
 
-def get_dataset(tokenizer: PreTrainedTokenizer, file_path: str, block_size: int):
-    return LineByLineTextDataset(tokenizer=tokenizer, file_path=file_path, block_size=block_size)
+def get_dataset(path, data_files):
+    dataset = load_dataset(path=path, data_files=data_files, cache_dir=path)
+    return dataset
 
 def main():
     parser = argparse.ArgumentParser()
@@ -28,8 +28,9 @@ def main():
     vocab_file = 'foodbert/data/bert-base-cased-vocab.txt'
     used_ingredients_file = 'foodbert/data/used_ingredients.json'
 
-    train_dataset_file = 'foodbert/data/sample_train_instructions.txt'
-    eval_dataset_file = 'foodbert/data/sample_test_instructions.txt'
+    dataset_path = 'foodbert/data'
+    train_dataset_file = 'sample_train_instructions.txt'
+    eval_dataset_file = 'sample_test_instructions.txt'
 
     if model_name == 'bert':
         model_id = 'google-bert/bert-base-cased'
@@ -48,11 +49,17 @@ def main():
         never_split=used_ingredients
     )
 
+    tokenize_function = lambda examples : tokenizer(
+        examples['text'], 
+        padding='max_length',
+        truncation=True
+    )
     model.resize_token_embeddings(len(tokenizer))
 
-    block_size = tokenizer.model_max_length
-    train_dataset = get_dataset(tokenizer=tokenizer, file_path=train_dataset_file, block_size=block_size)
-    eval_dataset = get_dataset(tokenizer=tokenizer, file_path=eval_dataset_file, block_size=block_size)
+    train_dataset = get_dataset(path=dataset_path, data_files=train_dataset_file)
+    tokenized_train_datasets = train_dataset.map(tokenize_function, batched=True)
+    eval_dataset = get_dataset(path=dataset_path, data_files=eval_dataset_file)
+    tokenized_eval_datasets = eval_dataset.map(tokenize_function, batched=True)
 
     training_args = TrainingArguments(
         output_dir=output_dir,
@@ -65,8 +72,8 @@ def main():
         model=model,
         args=training_args,
         data_collator=data_collator,
-        train_dataset=train_dataset,
-        eval_dataset=eval_dataset
+        train_dataset=tokenized_train_datasets['train'],
+        eval_dataset=tokenized_eval_datasets['train'],
     )
 
     trainer.train()
