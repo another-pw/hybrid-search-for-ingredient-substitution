@@ -23,9 +23,8 @@ def adjust_dense_vector_weight(dense_vector, alpha):
     
     return [v * alpha for v in dense_vector]
 
-def sparse_dict_to_vector(sparse_dict):
-    max_index = max([int(i) for i in sparse_dict.keys()]) + 1
-    sparse_vector = np.zeros(max_index)
+def sparse_dict_to_vector(sparse_dict, max_length):
+    sparse_vector = np.zeros(max_length)
     
     for index, value in sparse_dict.items():
         sparse_vector[int(index)] = value
@@ -37,7 +36,7 @@ def fusion():
 
 def main():
     metric = 'cosine'
-    n_neighbors = 5
+    n_neighbors = 10
     alpha = 0.5
 
     used_ingredients_file = 'foodbert/data/used_ingredients.json'
@@ -56,19 +55,31 @@ def main():
     sparse_vectors = []
     dense_vectors = []
     ingredient_names = []
+
+    max_length = 0
+    for ingredient in tqdm(used_ingredients, desc='finding max length of sparse vector'):
+        sparse_dict = sparse_dense_vectors_dict[ingredient]['sparse_vector']
+        max_length = max(
+            max_length,
+            max([int(i) for i in sparse_dict.keys()]) + 1
+        )
+    
+    print(f'sparse vector length: {max_length}')
+
     for ingredient in tqdm(used_ingredients, desc='extracting embeddings from json file'):
         sparse_vectors.append(sparse_dict_to_vector(
-                sparse_dense_vectors_dict[ingredient]['sparse_vector']
+                sparse_dict=sparse_dense_vectors_dict[ingredient]['sparse_vector'],
+                max_length=max_length
             )
         )
         dense_vectors.append(sparse_dense_vectors_dict[ingredient]['dense_vector'])
         ingredient_names.append(ingredient)
 
-    dense_neighbors = NearestNeighbors(n_neighbors=n_neighbors)
-    sprase_neighbors = NearestNeighbors(n_neighbors=n_neighbors)
+    dense_neighbors = NearestNeighbors(n_neighbors=n_neighbors, n_jobs=-1)
+    sparse_neighbors = NearestNeighbors(n_neighbors=n_neighbors, n_jobs=-1)
 
     dense_neighbors.fit(dense_vectors)
-    sprase_neighbors.fit(sparse_vectors)
+    sparse_neighbors.fit(sparse_vectors)
 
     if not Path(sparse_results_export_path).exists():
         print('sparse_results.json not found, generating results list')
@@ -76,8 +87,8 @@ def main():
         for i in tqdm(range(len(used_ingredients)), desc='generating results (sparse)'):
             sparse_dict = sparse_dense_vectors_dict[used_ingredients[i]]['sparse_vector']
             weigthed_sparse_dict = adjust_sparse_vector_weight(sparse_dict=sparse_dict, alpha=alpha)
-            weigthed_sparse_vector = sparse_dict_to_vector(sparse_dict=weigthed_sparse_dict)
-            sparse_distance, sparse_indices = sprase_neighbors.kneighbors(
+            weigthed_sparse_vector = sparse_dict_to_vector(sparse_dict=weigthed_sparse_dict, max_length=max_length)
+            sparse_distance, sparse_indices = sparse_neighbors.kneighbors(
                 [weigthed_sparse_vector], 
                 n_neighbors + 1, 
                 return_distance=True
