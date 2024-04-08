@@ -1,0 +1,2600 @@
+[
+  {
+    "ingredients": [
+      {
+        "text": "coriander_leave"
+      },
+      {
+        "text": "fish_sauce"
+      },
+      {
+        "text": "soy_sauce"
+      },
+      {
+        "text": "olive_oil"
+      },
+      {
+        "text": "fillet_steak"
+      },
+      {
+        "text": "mint"
+      },
+      {
+        "text": "thai_basil"
+      }
+    ],
+    "url": "https://www.bbcgoodfood.com/recipes/crying-tiger-salad",
+    "title": "Crying tiger Thai salad",
+    "id": 0,
+    "regional": "Thai",
+    "instructions": [
+      {
+        "text": "step 1 Finely chop the coriander stalk and combine with the oyster and soy_sauce (fish_sauce / oyster_sauce / sesame_oil). Lightly season, then tip into a sandwich bag with the steak. Massage the marinade into the meat, then put in the fridge for up to 3 hrs, but at least 1 hr."
+      },
+      {
+        "text": "step 2 Put the dipping_sauce ingredient in a bowl, finely chop 34 of the coriander leaves and add them too. Taste the sauce if you like it sweeter, add a little more sweet_chilli_sauce; if you prefer it more salty, add a little extra fish_sauce (oyster_sauce). Set aside."
+      },
+      {
+        "text": "STEP 3 Heat a frying pan over a high heat and, once very hot, cook the steak for 2- 3 min each side, depending on how well done you like it. Rest the steak for 5- 10 min before slicing and serving on a bed of herb, with the sauce on the side."
+      }
+    ],
+    "substitutions": [
+      {
+        "coriander_leave": [
+          "cashew_nut"
+        ]
+      },
+      {
+        "fish_sauce": [
+          "oyster_sauce"
+        ]
+      },
+      {
+        "soy_sauce": [
+          "fish_sauce",
+          "oyster_sauce",
+          "sesame_oil"
+        ]
+      },
+      {
+        "olive_oil": [
+          "canola_oil",
+          "peanut_oil",
+          "vegetable_oil"
+        ]
+      },
+      {
+        "fillet_steak": [
+          "king_trumpet_mushroom"
+        ]
+      },
+      {
+        "mint": [
+          "dill"
+        ]
+      },
+      {
+        "thai_basil": [
+          "mung_bean_sprout"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "skinless_chicken_breast"
+      },
+      {
+        "text": "olive_oil"
+      },
+      {
+        "text": "chestnut_mushroom"
+      },
+      {
+        "text": "green_bean"
+      },
+      {
+        "text": "red_pepper"
+      },
+      {
+        "text": "spinach_leaves"
+      },
+      {
+        "text": "rice_noodle"
+      },
+      {
+        "text": "coriander_leave"
+      },
+      {
+        "text": "red_onion"
+      },
+      {
+        "text": "lemongrass_stalk"
+      },
+      {
+        "text": "ginger"
+      },
+      {
+        "text": "curry_paste"
+      },
+      {
+        "text": "coriander"
+      },
+      {
+        "text": "roasted_red_pepper"
+      },
+      {
+        "text": "tomato_pur\u00e9e"
+      },
+      {
+        "text": "fish_sauce"
+      },
+      {
+        "text": "coconut_milk"
+      }
+    ],
+    "url": "https://realfood.tesco.com/recipes/gluten-free-coconut-chicken-curry.html",
+    "title": "Gluten-free coconut chicken curry recipe",
+    "id": 1,
+    "regional": "Thai",
+    "instructions": [
+      {
+        "text": "Put all the marinade ingredient in a food processor. whizz to a sauce."
+      },
+      {
+        "text": "Put the chicken in a container and pour over the marinade. cover and chill in the fridge for a couple of hour or overnight to marinate."
+      },
+      {
+        "text": "Heat the oil in a large frying pan or casserole. Remove the chicken from the marinade and add to the pan, reserving the marinade. brown lightly on each side for 5 minute. Add the mushroom and saut\u00e9 for 2- 3 minute. Pour over the marinade, then add the green_bean (broccoli / string_bean) and red_pepper (bell_pepper / sweet_pepper). cover and simmer gently for 10- 15 minute until the chicken is cooked through with no pink meat showing. Add the spinach and stir for a minute to wilt."
+      },
+      {
+        "text": "Serve the chicken_curry with the rice_noodle (sticky_rice) in bowl, with coriander (turmeric)_leave (cashew_nut) scattered over."
+      }
+    ],
+    "substitutions": [
+      {
+        "skinless_chicken_breast": [
+          "pork_rib"
+        ]
+      },
+      {
+        "olive_oil": [
+          "canola_oil",
+          "peanut_oil",
+          "vegetable_oil"
+        ]
+      },
+      {
+        "chestnut_mushroom": [
+          "wood_ear_mushroom"
+        ]
+      },
+      {
+        "green_bean": [
+          "broccoli",
+          "string_bean"
+        ]
+      },
+      {
+        "red_pepper": [
+          "bell_pepper",
+          "sweet_pepper"
+        ]
+      },
+      {
+        "rice_noodle": [
+          "sticky_rice"
+        ]
+      },
+      {
+        "coriander_leave": [
+          "cashew_nut"
+        ]
+      },
+      {
+        "red_onion": [
+          "green_onion",
+          "scallion"
+        ]
+      },
+      {
+        "ginger": [
+          "coriander",
+          "lemongras"
+        ]
+      },
+      {
+        "curry_paste": [
+          "red_curry_paste",
+          "shrimp_paste"
+        ]
+      },
+      {
+        "coriander": [
+          "turmeric"
+        ]
+      },
+      {
+        "fish_sauce": [
+          "oyster_sauce"
+        ]
+      },
+      {
+        "coconut_milk": [
+          "coconut_cream",
+          "coconut_water",
+          "red_curry_paste",
+          "tamarind_juice"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "sunflower_oil"
+      },
+      {
+        "text": "courgette"
+      },
+      {
+        "text": "green_curry_paste"
+      },
+      {
+        "text": "fresh_coriander"
+      },
+      {
+        "text": "lime"
+      },
+      {
+        "text": "peanut_butter"
+      },
+      {
+        "text": "light_coconut_milk"
+      },
+      {
+        "text": "sugar_snap_pea"
+      },
+      {
+        "text": "white_fish"
+      },
+      {
+        "text": "fish_sauce"
+      },
+      {
+        "text": "basmati_rice"
+      },
+      {
+        "text": "basil_leave"
+      }
+    ],
+    "url": "https://realfood.tesco.com/recipes/green-fish-curry.html",
+    "title": "Green fish curry recipe",
+    "id": 2,
+    "regional": "Thai",
+    "instructions": [
+      {
+        "text": "Heat the oil in a wok or large pan. fry the courgette (aubergine) over a high heat for 5 min. Add the paste, coriander stalk and lime (orange)_zest, and cook for 1- 2 min."
+      },
+      {
+        "text": "Remove the pan from the heat and stir in the peanut_butter and coconut_milk. Return to the heat, bring to the boil, then turn down and stir in the pea and nestle the fish into the sauce. Simmer for 6- 8 min, until the fish is cooked through."
+      },
+      {
+        "text": "season with 1- 2 tsp fish_sauce (oyster_sauce), the juice of half a lime (orange) and some black_pepper. Serve with the rice and lime (orange) half and garnish with the coriander and basil_leave."
+      }
+    ],
+    "substitutions": [
+      {
+        "sunflower_oil": [
+          "corn_oil",
+          "groundnut_oil",
+          "rapeseed_oil"
+        ]
+      },
+      {
+        "courgette": [
+          "aubergine"
+        ]
+      },
+      {
+        "green_curry_paste": [
+          "galanga",
+          "sweet_soy_sauce"
+        ]
+      },
+      {
+        "lime": [
+          "orange"
+        ]
+      },
+      {
+        "sugar_snap_pea": [
+          "string_bean"
+        ]
+      },
+      {
+        "fish_sauce": [
+          "oyster_sauce"
+        ]
+      },
+      {
+        "basmati_rice": [
+          "brown_rice",
+          "jasmine_rice",
+          "rice_noodle",
+          "sticky_rice",
+          "white_rice"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "free_range_chicken"
+      },
+      {
+        "text": "lemongrass_stalk"
+      },
+      {
+        "text": "galangal"
+      },
+      {
+        "text": "kaffir_lime_leave"
+      },
+      {
+        "text": "green_pepper"
+      },
+      {
+        "text": "water"
+      },
+      {
+        "text": "fish_sauce"
+      }
+    ],
+    "url": "http://www.thaifoodheritage.com/en/recipe_list/detail/gaeng-kui-gai-baan-chicken-in-red-curry",
+    "title": "Gaeng Kui Gai Baan (Chicken in Red Curry)",
+    "id": 3,
+    "regional": "Thai",
+    "instructions": [
+      {
+        "text": "1. Pound the pepper and salt into fine powder in a mortar. Add the rest of ingredient for curry_paste, and grind thoroughly."
+      },
+      {
+        "text": "2. Bring the water into a boil. And add the mixture, stir until its aromatic."
+      },
+      {
+        "text": "3. Add the chicken. Turn up the heat and simmer until well cooked. Add the galangal (coriander_root / lemongras / shrimp_paste) and lemongrass. season with fish_sauce (oyster_sauce), and then move from the heat."
+      },
+      {
+        "text": "4. Add the kaffir_lime_leave (chilli_paste / galangal / tamarind_juice) and fresh pepper. Serve in a bowl."
+      }
+    ],
+    "substitutions": [
+      {
+        "galangal": [
+          "coriander_root",
+          "lemongras",
+          "shrimp_paste"
+        ]
+      },
+      {
+        "kaffir_lime_leave": [
+          "chilli_paste",
+          "galangal",
+          "tamarind_juice"
+        ]
+      },
+      {
+        "green_pepper": [
+          "bell_pepper",
+          "celery",
+          "sweet_pepper"
+        ]
+      },
+      {
+        "fish_sauce": [
+          "oyster_sauce"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "tomato"
+      },
+      {
+        "text": "salt"
+      },
+      {
+        "text": "ginger"
+      },
+      {
+        "text": "palm"
+      },
+      {
+        "text": "clove_garlic"
+      },
+      {
+        "text": "carrot"
+      },
+      {
+        "text": "light_soy_sauce"
+      },
+      {
+        "text": "papaya"
+      },
+      {
+        "text": "peanut"
+      },
+      {
+        "text": "sweet_corn"
+      },
+      {
+        "text": "thai_red_chilli"
+      },
+      {
+        "text": "bird_eye"
+      },
+      {
+        "text": "green_chilli"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/thai-spicy-corn-green-papaya-salad-recipe-som-tum-khao-pod",
+    "title": "Thai Spicy Green Papaya Salad Recipe With Sweet Corn - Som Tum Khao Pod",
+    "id": 4,
+    "regional": "Thai",
+    "instructions": [
+      {
+        "text": "To begin making the thai spicy corn and green_papaya (cantaloupe / kiwi / mango) salad recipe, we will first grate carrot (bell_pepper / celery / green_bean) and papaya (cantaloupe / kiwi / mango)."
+      },
+      {
+        "text": " I personally like to use a food processors grater attachment to grate the raw green_papaya (cantaloupe / kiwi / mango) and the carrot (bell_pepper / celery / green_bean)., The processor simplifies the process of making the salad."
+      },
+      {
+        "text": "To prepare the dressing for the salad, in a pestle and mortar, add the garlic, grated ginger (coriander / lemongras), chilli and lightly pound them."
+      },
+      {
+        "text": "Add the sugar, lemon_juice and soy_sauce, pound with the pestle and pound again."
+      },
+      {
+        "text": "Add half of the roasted_peanut (cashew / macadamia_nut) and lightly pound along with the remaining seasoning ingredient."
+      },
+      {
+        "text": "The next step is to combine all the ingredient for the salad."
+      },
+      {
+        "text": "Into a large salad bowl, add grated papaya (cantaloupe / kiwi / mango), carrot (bell_pepper / celery / green_bean), sliced_tomato (olive), the remaining peanut (cashew / macadamia_nut) and steamed corn."
+      },
+      {
+        "text": "Pour dressing over the grated the vegetable and toss them in the dressing."
+      },
+      {
+        "text": "Check the salt (nutmeg), spice and sugar level and adjust to suit your taste. Serve the thai spicy corn green_papaya (cantaloupe / kiwi / mango) salad as an appetizer for the party or as a side dish for the main course along with the thai curry and steamed_rice."
+      }
+    ],
+    "substitutions": [
+      {
+        "tomato": [
+          "olive"
+        ]
+      },
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "ginger": [
+          "coriander",
+          "lemongras"
+        ]
+      },
+      {
+        "carrot": [
+          "bell_pepper",
+          "celery",
+          "green_bean"
+        ]
+      },
+      {
+        "light_soy_sauce": [
+          "dark_soy_sauce"
+        ]
+      },
+      {
+        "papaya": [
+          "cantaloupe",
+          "kiwi",
+          "mango"
+        ]
+      },
+      {
+        "peanut": [
+          "cashew",
+          "macadamia_nut"
+        ]
+      },
+      {
+        "sweet_corn": [
+          "sweet_pea"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "salt"
+      },
+      {
+        "text": "vegetable_stock"
+      },
+      {
+        "text": "ginger"
+      },
+      {
+        "text": "clove_garlic"
+      },
+      {
+        "text": "virgin_olive_oil"
+      },
+      {
+        "text": "carrot"
+      },
+      {
+        "text": "onion"
+      },
+      {
+        "text": "parsley_leave"
+      },
+      {
+        "text": "matzo_meal"
+      },
+      {
+        "text": "tofu_firm"
+      },
+      {
+        "text": "pepper"
+      },
+      {
+        "text": "dill_leave"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/vegetarian-tofu-matzo-ball-soup-recipe",
+    "title": "Vegetarian Tofu Matzo Ball Soup Recipe",
+    "id": 5,
+    "regional": "Jewish",
+    "instructions": [
+      {
+        "text": "To start making vegetarian tofu matzo ball soup, in a small stir fry pan, heat a teaspoon of oil over medium heat."
+      },
+      {
+        "text": "Add garlic, ginger (coriander / lemongras) and saute for a minute."
+      },
+      {
+        "text": "Add onion (carrot / scallion / shallot) and cook until soft."
+      },
+      {
+        "text": "Turn off the heat. In a mixing bowl mix the matzo_meal or bread_crumb, saut\u00e9ed onion (carrot / scallion / shallot)_salt (nutmeg) and pepper to combine. In a food processor or blender, combine the tofu, vegetable_broth, parsley and remaining oil until it forms a smooth paste."
+      },
+      {
+        "text": "Add the tofu mixture to the matzo_meal mixture and mix to combine."
+      },
+      {
+        "text": "Cover the bowl and refrigerate the batter overnight or for 5- 6 hour. To make the soup, in a saucepan heat the oil over medium heat."
+      },
+      {
+        "text": "Add the onion (carrot / scallion / shallot), carrot (bell_pepper / celery / green_bean) and cook for few minute or until the vegetable are tender."
+      },
+      {
+        "text": "Add the hot vegetable_broth, chopped_parsley and dil."
+      },
+      {
+        "text": "season with salt (nutmeg) and pepper to taste."
+      },
+      {
+        "text": "Bring to a boil, reduce the heat and simmer for till the vegetable are tender. While soup is simmering, divide the matzo ball mixture into small equal portion and shape into small size ball."
+      },
+      {
+        "text": "Add the tofu matzo balls to the soup, simmer for 15 to 20 minute or until they float to the surface and are cooked through."
+      },
+      {
+        "text": "Turn off the heat."
+      },
+      {
+        "text": "Serve vegetarian tofu matzo ball soup along with herb mushroom bruschetta."
+      }
+    ],
+    "substitutions": [
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "ginger": [
+          "coriander",
+          "lemongras"
+        ]
+      },
+      {
+        "virgin_olive_oil": [
+          "canola_oil",
+          "peanut_oil",
+          "vegetable_oil"
+        ]
+      },
+      {
+        "carrot": [
+          "bell_pepper",
+          "celery",
+          "green_bean"
+        ]
+      },
+      {
+        "onion": [
+          "carrot",
+          "scallion",
+          "shallot"
+        ]
+      },
+      {
+        "dill_leave": [
+          "chive_flower"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "cheese"
+      },
+      {
+        "text": "salt"
+      },
+      {
+        "text": "red_bell_pepper"
+      },
+      {
+        "text": "red_chilli_powder"
+      },
+      {
+        "text": "coriander_leave"
+      },
+      {
+        "text": "tandoori_masala"
+      },
+      {
+        "text": "red_chilli_powder"
+      },
+      {
+        "text": "ginger_garlic_paste"
+      },
+      {
+        "text": "curd"
+      },
+      {
+        "text": "soya_chaap"
+      },
+      {
+        "text": "green_chilli"
+      },
+      {
+        "text": "garam_masala_powder"
+      },
+      {
+        "text": "sunflower_oil"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/tandoori-style-soya-chaap-curry-recipe",
+    "title": "Tandoori Style Soya Chaap Curry Recipe",
+    "id": 6,
+    "regional": "North Indian Recipes",
+    "instructions": [
+      {
+        "text": "To begin making the tandoori style soya_chaap curry recipe, first remove the stick from soya_chaap and dice them small circular piece. Next, take a bowl and add diced soya_chaap, ginger_garlic_paste, and salt (nutmeg) together."
+      },
+      {
+        "text": "Use your hand to rub the mixture on soya_chaap."
+      },
+      {
+        "text": "Let it marinate for 15 minute. Meanwhile, take the red_pepper and keep it directly on gas fire for roasting."
+      },
+      {
+        "text": "Roast till it gets charred from all the side."
+      },
+      {
+        "text": "Let it cool down for few minute."
+      },
+      {
+        "text": "Use your hand to remove the burnt skin from the pepper."
+      },
+      {
+        "text": "Grind the roasted pepper green chillies together. Now take the marinated soya_chaap and add red_pepper paste, whisked yogurt, grated cheese and all the spice into it."
+      },
+      {
+        "text": "Give it a good stir so that soya_chunk are properly coated."
+      },
+      {
+        "text": "Cover the bowl with a cling film leave it for another 15 minute of marination."
+      },
+      {
+        "text": "Once marinated, then heat up oil in pan and first add the soya_chunk in order to fry them."
+      },
+      {
+        "text": "Cook them for 7- 8 minute and then add the left over marinade into the pan."
+      },
+      {
+        "text": "cook on low heat till the gravy starts thickening. Adjust salt (nutmeg) as per your taste and turn off the heat."
+      },
+      {
+        "text": "Garnish it with some fresh coriander_leave (cashew_nut) and serve hot. Serve tandoori style soya_chaap curry along with tomato onion cucumber raita and whole_wheat lachha paratha for a weekday meal."
+      }
+    ],
+    "substitutions": [
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "red_bell_pepper": [
+          "bell_pepper",
+          "yellow_pepper"
+        ]
+      },
+      {
+        "red_chilli_powder": [
+          "turmeric_powder"
+        ]
+      },
+      {
+        "coriander_leave": [
+          "cashew_nut"
+        ]
+      },
+      {
+        "red_chilli_powder": [
+          "turmeric_powder"
+        ]
+      },
+      {
+        "curd": [
+          "coconut_cream"
+        ]
+      },
+      {
+        "sunflower_oil": [
+          "corn_oil",
+          "groundnut_oil",
+          "rapeseed_oil"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "bulgur_wheat"
+      },
+      {
+        "text": "pumpkin_seed"
+      },
+      {
+        "text": "rapeseed_oil"
+      },
+      {
+        "text": "halloumi_cheese"
+      },
+      {
+        "text": "cucumber"
+      },
+      {
+        "text": "parsley"
+      },
+      {
+        "text": "lemon"
+      },
+      {
+        "text": "watermelon"
+      }
+    ],
+    "url": "https://www.bbcgoodfood.com/recipes/halloumi-watermelon-bulgur-salad",
+    "title": "Halloumi & watermelon bulgur salad",
+    "id": 7,
+    "regional": "Mediterranean",
+    "instructions": [
+      {
+        "text": "step 1 boil the kettle. Put the bulgur_wheat (mung_bean / rice_vermicelli) in a bowl with some seasoning, pour over enough hot_water to just cover, then cover with cling film and set aside to absorb the liquid while you prepare the remaining ingredient."
+      },
+      {
+        "text": "step 2 Heat a large frying pan and add the pumpkin_seed (cashew), toast for a few min until the seed start to crackle and pop, then tip into a dish and set aside. Heat a drizzle of oil in the pan. Add the halloumi_slice and fry for 2- 3 min on each side or until golden."
+      },
+      {
+        "text": "STEP 3 Unwrap the bulgur_wheat (mung_bean / rice_vermicelli) and check that it is tender if not, re- cover and leave for another 5 min. All the water should have been absorbed, but if not, drain the excess. Add the remaining oil, the cucumber (cherry_tomato / jicama / radish), herb, lemon (lime / orange)_zest and juice, and pumpkin_seed (cashew) to the bulgur_wheat (mung_bean / rice_vermicelli) and toss well. transfer to a platter, top with the watermelon (cantaloupe / kiwi / mango / papaya) and halloumi, and scatter with the reserved herb."
+      }
+    ],
+    "substitutions": [
+      {
+        "bulgur_wheat": [
+          "mung_bean",
+          "rice_vermicelli"
+        ]
+      },
+      {
+        "pumpkin_seed": [
+          "cashew"
+        ]
+      },
+      {
+        "rapeseed_oil": [
+          "groundnut_oil"
+        ]
+      },
+      {
+        "cucumber": [
+          "cherry_tomato",
+          "jicama",
+          "radish"
+        ]
+      },
+      {
+        "parsley": [
+          "basil",
+          "dill"
+        ]
+      },
+      {
+        "lemon": [
+          "lime",
+          "orange"
+        ]
+      },
+      {
+        "watermelon": [
+          "cantaloupe",
+          "kiwi",
+          "mango",
+          "papaya"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "olive_oil"
+      },
+      {
+        "text": "smoked_bacon"
+      },
+      {
+        "text": "shallot"
+      },
+      {
+        "text": "garlic_clove"
+      },
+      {
+        "text": "chorizo"
+      },
+      {
+        "text": "risotto_rice"
+      },
+      {
+        "text": "chicken_stock"
+      },
+      {
+        "text": "frozen_broad_bean"
+      }
+    ],
+    "url": "https://www.bbcgoodfood.com/recipes/chorizo-broad-bean-risotto",
+    "title": "Chorizo & broad bean risotto",
+    "id": 8,
+    "regional": "Spanish",
+    "instructions": [
+      {
+        "text": "step 1 Heat the oil in a medium- sized pan, then add the bacon, shallot (scallion), garlic and chorizo. Gently cook for 8 min, stirring occasionally so everything cooks evenly."
+      },
+      {
+        "text": "step 2 Stir in the rice, coating all over with the cooking juice in the pan. Add just enough stock to cover the rice, bring to a simmer and gently cook until all the liquid is absorbed. Continue adding the stock a ladleful at a time, and gently cook. Just before the final ladleful of stock, add the broad_bean and stir through, cooking for 3- 4 min until tender. Remove the chorizo, slice thinly, return to the pan and mix through before serving."
+      }
+    ],
+    "substitutions": [
+      {
+        "olive_oil": [
+          "canola_oil",
+          "peanut_oil",
+          "vegetable_oil"
+        ]
+      },
+      {
+        "shallot": [
+          "scallion"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "salt"
+      },
+      {
+        "text": "thyme_leave"
+      },
+      {
+        "text": "soy_sauce"
+      },
+      {
+        "text": "water"
+      },
+      {
+        "text": "virgin_olive_oil"
+      },
+      {
+        "text": "tomato_ketchup"
+      },
+      {
+        "text": "onion"
+      },
+      {
+        "text": "sweet_corn"
+      },
+      {
+        "text": "green_bell_pepper"
+      },
+      {
+        "text": "button_mushroom"
+      },
+      {
+        "text": "potato"
+      },
+      {
+        "text": "pepper"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/vegetarian-potato-hash-recipe",
+    "title": "Vegetarian Potato Hash Recipe",
+    "id": 9,
+    "regional": "Continental",
+    "instructions": [
+      {
+        "text": "To begin making the vegetarian potato hash, first get all the ingredient chopped and ready and keep them by the side. heat 2 tablespoon of oil in a non stick skillet on low heat."
+      },
+      {
+        "text": "Add the onion (carrot / scallion / shallot), the vegetable, sprinkle some salt (nutmeg) and cook, stirring occasionally, until golden."
+      },
+      {
+        "text": "You can optionally sprinkle some water, cover the pan and cook until the potato are cooked through. Once cooked, transfer the cooked_vegetable to a plate."
+      },
+      {
+        "text": "In the same pan add another tablespoon of oil, add the diced_potato and cook."
+      },
+      {
+        "text": "Stir occasionally and cook for about 13 minute or until they form a golden crust."
+      },
+      {
+        "text": "Meanwhile in a small bowl, mix the ketchup, soy_sauce (fish_sauce / oyster_sauce / sesame_oil), water, Italian seasoning, minced thyme and stir well."
+      },
+      {
+        "text": "Add the cooked mixed_vegetable to the skillet along with potato."
+      },
+      {
+        "text": "stir in the ketchup mixture and cook, stirring frequently."
+      },
+      {
+        "text": "Cook for about 5 to 7 minute or until the flavor blend in and the hash has browned nicely."
+      },
+      {
+        "text": "Once done the vegetarian potato hash is ready to be served. Serve the vegetarian potato hash warm with egg_white omelette with spinach and muskmelon kharbuj juice for breakfast."
+      }
+    ],
+    "substitutions": [
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "soy_sauce": [
+          "fish_sauce",
+          "oyster_sauce",
+          "sesame_oil"
+        ]
+      },
+      {
+        "virgin_olive_oil": [
+          "canola_oil",
+          "peanut_oil",
+          "vegetable_oil"
+        ]
+      },
+      {
+        "onion": [
+          "carrot",
+          "scallion",
+          "shallot"
+        ]
+      },
+      {
+        "sweet_corn": [
+          "sweet_pea"
+        ]
+      },
+      {
+        "green_bell_pepper": [
+          "bell_pepper",
+          "sweet_pepper",
+          "yellow_pepper"
+        ]
+      },
+      {
+        "button_mushroom": [
+          "oyster_mushroom"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "black_peppercorn"
+      },
+      {
+        "text": "onion"
+      },
+      {
+        "text": "black_pepper_powder"
+      },
+      {
+        "text": "turmeric_powder"
+      },
+      {
+        "text": "black_cardamom"
+      },
+      {
+        "text": "salt"
+      },
+      {
+        "text": "jasmine_rice"
+      },
+      {
+        "text": "cardamom"
+      },
+      {
+        "text": "egg"
+      },
+      {
+        "text": "ginger_juice"
+      },
+      {
+        "text": "mace"
+      },
+      {
+        "text": "nutmeg_powder"
+      },
+      {
+        "text": "red_chilli_powder"
+      },
+      {
+        "text": "water"
+      },
+      {
+        "text": "dry_red_chilli"
+      },
+      {
+        "text": "curd"
+      },
+      {
+        "text": "chicken_bite"
+      },
+      {
+        "text": "ghee"
+      },
+      {
+        "text": "bay_leaf"
+      },
+      {
+        "text": "ginger_garlic_paste"
+      },
+      {
+        "text": "cinnamon_stick"
+      },
+      {
+        "text": "clove"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/handi-biryani-recipe-with-chicken",
+    "title": "Handi Biryani Recipe With Chicken",
+    "id": 10,
+    "regional": "Assamese",
+    "instructions": [
+      {
+        "text": "To begin making handi biryani recipe With chicken, first marinate the chopped chicken_piece in a large bowl with curd (coconut_cream), salt (nutmeg), half of the pepper_powder, half of ginger- garlic_paste and red_chilli_powder (turmeric_powder) for 30 minute. Also soak rice for 20 minute and drain all the water once done with soaking them, and keep aside. Meanwhile, you can cook the egg till hardboiled."
+      },
+      {
+        "text": "Once the egg is boiled, peel the shell. Heat a shallow frying pan with a little oil or ghee (coconut_oil / corn_oil / sunflower_oil)."
+      },
+      {
+        "text": "Once hot, slice each egg to four piece, and fry them on all side till browned."
+      },
+      {
+        "text": "Reserve these boiled and fried_egg for serving the handi biryani. Once the egg are prepared, the rice is soaked, and the chicken is marinated, proceed with making the biryani. In a handi, heat a tablespoon of ghee (coconut_oil / corn_oil / sunflower_oil) and on a medium heat, add the marinated chicken_piece along with the leftover marinade."
+      },
+      {
+        "text": "cook for 5- 7 minute or till the chicken is softer and at least half- cooked."
+      },
+      {
+        "text": "Once done, take them out and keep them aside. Add some more ghee (coconut_oil / corn_oil / sunflower_oil) into the handi and add ginger_juice (ginger_water), cover the handi for a minute to temper the ghee (coconut_oil / corn_oil / sunflower_oil). Add bay_leave, and rest of the whole masala like clove (cardamom), cardamom (mace), cinnamon, mace, nutmeg, black_pepper, and bay_leaves and cook for a minute or till amazingly fragrant. Now add the chopped_onion (carrot / scallion / shallot) and cook until it is golden brown."
+      },
+      {
+        "text": "Now add the rest of the ginger_garlic_paste, corsely pounded red_chilli, remaining black_pepper_powder and turmeric_powder (red_chilli_powder (turmeric_powder)) and cook for about 2 minute or till the raw smell goes away. Now add the half done chicken_piece and cook for a few more minute."
+      },
+      {
+        "text": "Be prepared with the hot_water to add to the recipe by this time as well."
+      },
+      {
+        "text": "amount of hot_water also depends on the rice that you are using."
+      },
+      {
+        "text": "We want this to be on the fluffier side and hence, adjust the water accordingly. Check the salt (nutmeg) and adjust if required."
+      },
+      {
+        "text": "Bring the biryani to a boil and close the lid, stirring occasionally. Once the mixture has come to a rolling boil, add the drained rice and cook for 15- 20 minute or till the rice is cooked well. While serving, add the boiled and fried_egg that were kept reserved, such that each serving gets at least 2 piece of the egg too. Serve handi biryani recipe With chicken along with a side dish like tomato onion (carrot / scallion / shallot) cucumber raita recipe, and a side of chicken seekh kebab recipe."
+      }
+    ],
+    "substitutions": [
+      {
+        "onion": [
+          "carrot",
+          "scallion",
+          "shallot"
+        ]
+      },
+      {
+        "turmeric_powder": [
+          "red_chilli_powder"
+        ]
+      },
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "jasmine_rice": [
+          "brown_rice",
+          "sticky_rice",
+          "white_rice"
+        ]
+      },
+      {
+        "cardamom": [
+          "mace"
+        ]
+      },
+      {
+        "ginger_juice": [
+          "ginger_water"
+        ]
+      },
+      {
+        "red_chilli_powder": [
+          "turmeric_powder"
+        ]
+      },
+      {
+        "curd": [
+          "coconut_cream"
+        ]
+      },
+      {
+        "ghee": [
+          "coconut_oil",
+          "corn_oil",
+          "sunflower_oil"
+        ]
+      },
+      {
+        "cinnamon_stick": [
+          "cardamom"
+        ]
+      },
+      {
+        "clove": [
+          "cardamom"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "salt"
+      },
+      {
+        "text": "cumin_powder"
+      },
+      {
+        "text": "rosemary"
+      },
+      {
+        "text": "wheat_bread"
+      },
+      {
+        "text": "egg"
+      },
+      {
+        "text": "milk"
+      },
+      {
+        "text": "red_chilli_flake"
+      },
+      {
+        "text": "garlic"
+      },
+      {
+        "text": "lemon"
+      },
+      {
+        "text": "thyme_leaves"
+      },
+      {
+        "text": "maida_flour"
+      },
+      {
+        "text": "chicken_breast_bless"
+      },
+      {
+        "text": "garam_masala_powder"
+      },
+      {
+        "text": "dried_oregano"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/crispy-chicken-popcorn-recipe",
+    "title": "KFC Style Crispy Chicken Popcorn Recipe",
+    "id": 11,
+    "regional": "American",
+    "instructions": [
+      {
+        "text": "To begin making the kfc style crispy chicken popcorn, wash the chicken thoroughly, cut into small cube. To marinate the chicken, in a mixing bowl, combine chicken_minced garlic (bell_pepper / shallot), lemon (lime / orange)_juice, oregano, thyme, rosemary, chili_flake and salt (nutmeg). Alternatively if you do not have these herb available individually, you can use 3 teaspoon of mixed_herb or any herb of your choice."
+      },
+      {
+        "text": "Let this sit for about 20 minute. In the meanwhile, heat a griddle on medium- high flame, toast the slice of bread until crispy."
+      },
+      {
+        "text": "Allow it to cool."
+      },
+      {
+        "text": "In a mixer jar, grind the toasted bread until you get coarse bread_crumb."
+      },
+      {
+        "text": "Transfer the bread crumbs to a bowl, add cumin_powder (red_chilli_powder) and garam_masala mix and set aside. In another bowl, break the egg, add milk to the egg and whisk lightly, set aside. Place the maida in a bowl and keep it ready."
+      },
+      {
+        "text": "Heat a paniyaram pan on medium- high flame until steaming hot."
+      },
+      {
+        "text": "Put a little oil in each of the cavity. Arrange the component in the sequence of- chicken_egg, maida, bread_crumb. To coat the chicken popcorn, first start by dipping the marinated piece of chicken in egg, then roll in maida, dip it in egg once again, and finally roll it in the bread_crumb. Drop the chicken popcorn in each of the cavity and allow to cook and become crispy."
+      },
+      {
+        "text": "After 3- 4 minute, flip the chicken on to the other side."
+      },
+      {
+        "text": "Allow to cook."
+      },
+      {
+        "text": "drain on a kitchen towel so that it absorbs the excess oil."
+      },
+      {
+        "text": "Serve hot. Alternatively, you can also deep fry the crispy chicken popcorn in a frying pan until the popcorn turns golden in colour. Serve kfc style crispy chicken popcorn as appetizer with cottage cheese_dip recipe With pepper and olive or tzatziki recipe- A greek_yogurt dip or sriracha hummus for your house party or a potluck party."
+      }
+    ],
+    "substitutions": [
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "cumin_powder": [
+          "red_chilli_powder"
+        ]
+      },
+      {
+        "red_chilli_flake": [
+          "dried_garlic"
+        ]
+      },
+      {
+        "garlic": [
+          "bell_pepper",
+          "shallot"
+        ]
+      },
+      {
+        "lemon": [
+          "lime",
+          "orange"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "salt"
+      },
+      {
+        "text": "cumin_powder"
+      },
+      {
+        "text": "vegetable_stock"
+      },
+      {
+        "text": "harissa_paste"
+      },
+      {
+        "text": "cauliflower"
+      },
+      {
+        "text": "virgin_olive_oil"
+      },
+      {
+        "text": "almond"
+      },
+      {
+        "text": "black_pepper_powder"
+      },
+      {
+        "text": "coriander_powder"
+      },
+      {
+        "text": "cinnamon_powder"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/spiced-cauliflower-and-almond-soup-recipe",
+    "title": "Spiced Cauliflower And Almond Soup Recipe",
+    "id": 12,
+    "regional": "Italian Recipes",
+    "instructions": [
+      {
+        "text": "To begin making the spiced cauliflower (asparagus / broccoli / green_bean) And almond (macadamia_nut) soup recipe, rinse and wash cauliflower (asparagus / broccoli / green_bean)."
+      },
+      {
+        "text": "chop roughly."
+      },
+      {
+        "text": " I have used blanched_almond (macadamia_nut) here, you can use plain almond (macadamia_nut) too.heat olive_oil in a large sauce pan."
+      },
+      {
+        "text": "Add cauliflower (asparagus / broccoli / green_bean)_floret and roast until the floret start to brown."
+      },
+      {
+        "text": "Now add harissa_paste, all the spice_powder and salt (nutmeg) to taste, mix."
+      },
+      {
+        "text": "Cook for a minute."
+      },
+      {
+        "text": "Add blanched_almond (macadamia_nut) and cook for another minute."
+      },
+      {
+        "text": "Add vegetable_stock or even chicken_stock if you are non vegetarian, cover the pan with lid and bring it to boil."
+      },
+      {
+        "text": "When the cauliflower (asparagus / broccoli / green_bean)_floret gets cooked fully, using a hand blender blend until smooth."
+      },
+      {
+        "text": "Add pepper_powder, mix."
+      },
+      {
+        "text": "Check for seasoning and adjust accordingly."
+      },
+      {
+        "text": "Pour the soup into serving bowl and serve hot. Serve spiced cauliflower (asparagus / broccoli / green_bean) And almond (macadamia_nut) soup with herbed garlic_bread for a weeknight dinner."
+      }
+    ],
+    "substitutions": [
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "cumin_powder": [
+          "red_chilli_powder"
+        ]
+      },
+      {
+        "cauliflower": [
+          "asparagus",
+          "broccoli",
+          "green_bean"
+        ]
+      },
+      {
+        "virgin_olive_oil": [
+          "canola_oil",
+          "peanut_oil",
+          "vegetable_oil"
+        ]
+      },
+      {
+        "almond": [
+          "macadamia_nut"
+        ]
+      },
+      {
+        "coriander_powder": [
+          "red_chilli_powder"
+        ]
+      },
+      {
+        "cinnamon_powder": [
+          "cane_sugar"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "tomato"
+      },
+      {
+        "text": "salt"
+      },
+      {
+        "text": "red_bell_pepper"
+      },
+      {
+        "text": "cumin_powder"
+      },
+      {
+        "text": "coriander"
+      },
+      {
+        "text": "spinach"
+      },
+      {
+        "text": "bay_leaf"
+      },
+      {
+        "text": "red_chilli_powder"
+      },
+      {
+        "text": "clove_garlic"
+      },
+      {
+        "text": "virgin_olive_oil"
+      },
+      {
+        "text": "jalapenos"
+      },
+      {
+        "text": "sugar"
+      },
+      {
+        "text": "onion"
+      },
+      {
+        "text": "feta_cheese"
+      },
+      {
+        "text": "pepper"
+      },
+      {
+        "text": "egg"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/shakshuka-with-spinach-and-feta-cheese-recipe",
+    "title": "Shakshuka With Spinach & Feta Cheese Recipe",
+    "id": 13,
+    "regional": "African",
+    "instructions": [
+      {
+        "text": "To begin making the shakshuka With spinach (broccoli) feta_cheese recipe we first have to get all the set of ingredient ready."
+      },
+      {
+        "text": "Have the tomato (olive) puree ready and some tomato (olive), blanched and chopped roughly. Preheat the oven to 180 C.Heat oil in a cast iron pan."
+      },
+      {
+        "text": "Add the onion (carrot / scallion / shallot), garlic, chopped red_bell_pepper (bell_pepper / yellow_pepper) and saut\u00e9 over medium heat until soft and tender."
+      },
+      {
+        "text": "Add in the jalapenos and spinach (broccoli) and cook for another couple of minute until the spinach (broccoli) wilts down. Finally stir in the tomato (olive) puree, along with the chopped_tomato (olive), bay_leaf, salt (nutmeg), sugar (honey), red_chilli, paprika, cumin_powder (red_chilli_powder (turmeric_powder)) and cook them all together for another 5 to 10 minute until the spicy tomato (olive)_sauce has slightly thickened. At this stage, stir in the feta_cheese, check the salt (nutmeg) and spice and adjust to suit your taste."
+      },
+      {
+        "text": "Remember feta already has a lot of salt (nutmeg) in it. Finally, crack the egg into the tomato (olive) mixture and space them out evenly."
+      },
+      {
+        "text": "Place the shakshuka into the oven and bake until the egg are just about set and cooked from the top."
+      },
+      {
+        "text": "This would take about 5 to 7 minute."
+      },
+      {
+        "text": "Once done, remove from the oven, sprinkle the chopped coriander (turmeric) leaves on the top and serve it along with a hot_sauce. Serve the shakshuka With spinach (broccoli) And feta_cheese along with whole_grain like couscous or a steamed millet, and a side of Rustic rosemary garlic zucchini bread to make it a complete meal by itself."
+      }
+    ],
+    "substitutions": [
+      {
+        "tomato": [
+          "olive"
+        ]
+      },
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "red_bell_pepper": [
+          "bell_pepper",
+          "yellow_pepper"
+        ]
+      },
+      {
+        "cumin_powder": [
+          "red_chilli_powder"
+        ]
+      },
+      {
+        "coriander": [
+          "turmeric"
+        ]
+      },
+      {
+        "spinach": [
+          "broccoli"
+        ]
+      },
+      {
+        "red_chilli_powder": [
+          "turmeric_powder"
+        ]
+      },
+      {
+        "virgin_olive_oil": [
+          "canola_oil",
+          "peanut_oil",
+          "vegetable_oil"
+        ]
+      },
+      {
+        "sugar": [
+          "honey"
+        ]
+      },
+      {
+        "onion": [
+          "carrot",
+          "scallion",
+          "shallot"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "salt"
+      },
+      {
+        "text": "coriander_leave"
+      },
+      {
+        "text": "black_pepper_powder"
+      },
+      {
+        "text": "clove_garlic"
+      },
+      {
+        "text": "virgin_olive_oil"
+      },
+      {
+        "text": "spring_onion"
+      },
+      {
+        "text": "parsley_leave"
+      },
+      {
+        "text": "lemon"
+      },
+      {
+        "text": "shell_pasta"
+      },
+      {
+        "text": "mint_leave"
+      },
+      {
+        "text": "green_chilli"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/pasta-in-pudina-chutney-recipe",
+    "title": "Pasta In Pudina Chutney Sauce - A Indian Fusion Recipe",
+    "id": 14,
+    "regional": "Fusion",
+    "instructions": [
+      {
+        "text": " To begin making pasta In pudina chutney, lets start by cooking pasta. In a large pot, add water and bring it to a boil., Once the water has boiled, add a teaspoon of salt (nutmeg). Add the shell_pasta to the boiling_water and cook in the boiling_water until it is al_dente just cooked."
+      },
+      {
+        "text": "This process should take a good 12- 15 minute."
+      },
+      {
+        "text": "Once the shell_pasta has cooked, drain the water and run the cooked pasta under running water to stop the cooking process."
+      },
+      {
+        "text": "Drizzle some oil on top of pasta and make sure to coat all of the pasta with the oil In a mixer, add mint_leave_coriander leave, chilie, lemon (lime / orange)_juice, salt (nutmeg) and grind into a smooth paste."
+      },
+      {
+        "text": "In a non- stick pan, add olive_oil, minced_garlic and saute them for 2- 3 minute until the garlic has browned."
+      },
+      {
+        "text": "Now add the freshly ground pudina chutney and saute for 5- 6 minute until the raw smell goes off."
+      },
+      {
+        "text": "Add the cooked pasta to the pudina chutney and mix until all the pasta is coated well with the chutney."
+      },
+      {
+        "text": "Add salt (nutmeg) and pepper according to your taste."
+      },
+      {
+        "text": "If you think the pasta is too dry, add 2 teaspoon of water to give it a creamy texture."
+      },
+      {
+        "text": "You can also cream to give the pasta In pudina chutney a creamy texture. Garnish the pasta in pudina chutney along spring_onion (scallion) or parsley and serve. Serve the pasta In pudina chutney with a slice of garlic_bread and a summer lettuce salad recipe for a quick weeknight dinner."
+      }
+    ],
+    "substitutions": [
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "coriander_leave": [
+          "cashew_nut"
+        ]
+      },
+      {
+        "virgin_olive_oil": [
+          "canola_oil",
+          "peanut_oil",
+          "vegetable_oil"
+        ]
+      },
+      {
+        "spring_onion": [
+          "scallion"
+        ]
+      },
+      {
+        "lemon": [
+          "lime",
+          "orange"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "tomato"
+      },
+      {
+        "text": "salt"
+      },
+      {
+        "text": "wheat_flour"
+      },
+      {
+        "text": "mozzarella_cheese_topping"
+      },
+      {
+        "text": "green_bell_pepper"
+      },
+      {
+        "text": "pizza_pasta_sauce"
+      },
+      {
+        "text": "virgin_olive_oil"
+      },
+      {
+        "text": "dry_yeast"
+      },
+      {
+        "text": "water"
+      },
+      {
+        "text": "sugar"
+      },
+      {
+        "text": "onion"
+      },
+      {
+        "text": "sooji_semolina"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/pan-pizza-recipe-from-scratch",
+    "title": "Homemade Pan Pizza With Perfectly Crispy Crust Recipe",
+    "id": 15,
+    "regional": "Italian Recipes",
+    "instructions": [
+      {
+        "text": "To begin with the homemade pan pizza With perfectly crispy crust recipe, get ready with all the ingredient and make the dough first. To Make the dough mix flour_salt (nutmeg), sugar (honey), and yeast."
+      },
+      {
+        "text": "Slowly add the water and start making a dough."
+      },
+      {
+        "text": "Eventually, you will get a sticky dough, after about 5 minute. Now grease your hand with some oil and on a flat surface, start kneading the dough."
+      },
+      {
+        "text": "Kneading is important as it will develop the gluten to make the base soft and palpable. Once the dough comes together in a round and smooth ball, cover and let it rest in a deep dish someplace warm. To make the pizza tomato (olive)_sauce click on the link to follow the recipe homemade pizza_sauce recipe."
+      },
+      {
+        "text": "To Make the pan pizza Prepare the pan for pizza to cook."
+      },
+      {
+        "text": "oil it generously and put about 1 tablespoon semolina and rotate the pan to cover the base and edge. Meanwhile in a mixing bowl, add a tablespoon of oil_salt (nutmeg), tomato (olive), pepper and onion (carrot / scallion / shallot)."
+      },
+      {
+        "text": "Mix everything properly so that the oil is coated evenly."
+      },
+      {
+        "text": "After 90 minute, the dough will be doubled."
+      },
+      {
+        "text": "If not, wait for another 30 minute. Punch the dough down and knead again for about half a minute."
+      },
+      {
+        "text": "Make 3 ball of equal size. Oil your hand and start flattening one of the ball and pulling it in the round and place it in the center of the pan."
+      },
+      {
+        "text": "Now use your finger to push through the edge and evening out each pizza_base. Top each pizza_base with pizza_sauce, sprinkle_cheese, arrange onion (carrot / scallion / shallot), bell_pepper and tomato (olive) and top it up with cheese again. Cook the pan pizza for 10- 12 minute or until done."
+      },
+      {
+        "text": "Serve this pan pizza along with penne_pasta arrabiata, garlic_bread and apple Crumble pie for your weekend brunch or dinner with a glass of wine."
+      }
+    ],
+    "substitutions": [
+      {
+        "tomato": [
+          "olive"
+        ]
+      },
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "wheat_flour": [
+          "whole_wheat_flour"
+        ]
+      },
+      {
+        "green_bell_pepper": [
+          "bell_pepper",
+          "sweet_pepper",
+          "yellow_pepper"
+        ]
+      },
+      {
+        "virgin_olive_oil": [
+          "canola_oil",
+          "peanut_oil",
+          "vegetable_oil"
+        ]
+      },
+      {
+        "sugar": [
+          "honey"
+        ]
+      },
+      {
+        "onion": [
+          "carrot",
+          "scallion",
+          "shallot"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "salt"
+      },
+      {
+        "text": "rice"
+      },
+      {
+        "text": "coconut"
+      },
+      {
+        "text": "tamarind_water"
+      },
+      {
+        "text": "mustard_seed"
+      },
+      {
+        "text": "cumin_seed"
+      },
+      {
+        "text": "jaggery"
+      },
+      {
+        "text": "asafoetida"
+      },
+      {
+        "text": "clove_garlic"
+      },
+      {
+        "text": "water"
+      },
+      {
+        "text": "curry_leave"
+      },
+      {
+        "text": "dry_red_chilli"
+      },
+      {
+        "text": "coriander_seed"
+      },
+      {
+        "text": "fenugreek_seed"
+      },
+      {
+        "text": "okra"
+      },
+      {
+        "text": "turmeric_powder"
+      },
+      {
+        "text": "sesame_seed"
+      },
+      {
+        "text": "sunflower_oil"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/mangalorean-bhende-puli-kodel-recipe-okra-in-tamarind-gravy",
+    "title": "Bendekayi Puli Koddel Recipe - Lady Finger In Coconut Tamarind Curry",
+    "id": 16,
+    "regional": "Mangalorean",
+    "instructions": [
+      {
+        "text": "To begin making the bendekayi puli koddel recipe, into a preheated pan, add oil and okra (baby_corn / string_bean) or bendekayi."
+      },
+      {
+        "text": "Sprinkle salt (nutmeg) to taste and stir well."
+      },
+      {
+        "text": "Cover and cook the okra (baby_corn / string_bean) till soft and roasted."
+      },
+      {
+        "text": "Stir occasionally to ensure even cooking of the okra (baby_corn / string_bean). Now we will roast the masala for the bendekayi puli koddel. Into a preheated pan, add fenugreek_seed, cumin_seed, coriander_seed, sesame_seed (black_sesame_seed / pumpkin_seed / sesame / white_sesame_seed), rice (barley / egg_noodle)_grain, dry_red_chilli, garlic and stir for 3 to 4 minute until well roasted. Once done, add the coconut and roast for another 2 minute."
+      },
+      {
+        "text": "Turn off the heat after the coconut is light golden in color and allow it to cool."
+      },
+      {
+        "text": " Once the coconut cools down, add the roasted masala to a mixer grinder along with tamarind, jaggery, water and blend to make a smooth paste and keep it aside. Add the ground masala into the pan with the roasted ladys finger., Add about 12 cup of water, salt (nutmeg) to taste and bring the bendekayi puli koddel to a brisk boil."
+      },
+      {
+        "text": "boil for 4 to 5 minute until the curry has thickened and reached the desired consistency."
+      },
+      {
+        "text": "Once done, switch off the gas.for the seasoning Heat oil in a tadka pan."
+      },
+      {
+        "text": "Add mustard_seed and allow it to crackle."
+      },
+      {
+        "text": "Once the mustard_seed have crackled, add asafoetida, dry_red_chilli and curry_leave."
+      },
+      {
+        "text": "Turn off the heat after few second and pour the seasoning over the bendekayi puli koddel."
+      },
+      {
+        "text": "Give it a mix. Transfer the bendekayi puli koddel into a serving bowl and serve. Serve the bendekayi puli koddel recipe along with steamed_rice (barley / egg_noodle), mangalorean padengi gassi and elai vadam for a comforting lunch."
+      }
+    ],
+    "substitutions": [
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "rice": [
+          "barley",
+          "egg_noodle"
+        ]
+      },
+      {
+        "tamarind_water": [
+          "tamarind_juice"
+        ]
+      },
+      {
+        "okra": [
+          "baby_corn",
+          "string_bean"
+        ]
+      },
+      {
+        "turmeric_powder": [
+          "red_chilli_powder"
+        ]
+      },
+      {
+        "sesame_seed": [
+          "black_sesame_seed",
+          "pumpkin_seed",
+          "sesame",
+          "white_sesame_seed"
+        ]
+      },
+      {
+        "sunflower_oil": [
+          "corn_oil",
+          "groundnut_oil",
+          "rapeseed_oil"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "salt"
+      },
+      {
+        "text": "pickle_masala"
+      },
+      {
+        "text": "turmeric_powder"
+      },
+      {
+        "text": "green_chilli"
+      },
+      {
+        "text": "sunflower_oil"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/instant-chilli-pickle-recipe",
+    "title": "Instant Chilli Pickle Recipe",
+    "id": 17,
+    "regional": "Indian",
+    "instructions": [
+      {
+        "text": "To make instant chilli pickle, wash and chop the green_chilli. Heat oil in a thick bottomed pan. Now add chilli, turmeric_powder (red_chilli_powder), and salt (nutmeg)."
+      },
+      {
+        "text": "Mix well. Cover and cook for approximate 2 to 3 minute on low heat or till tender. Now open the lid and add pickle_masala (garland_chrysanthemum). Stir fry for a minute on low heat."
+      },
+      {
+        "text": "Switch off. Instant chilli pickle recipe is ready to be served as an accompaniment with cooked_rice, roti, poori or aloo paratha."
+      }
+    ],
+    "substitutions": [
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "pickle_masala": [
+          "garland_chrysanthemum"
+        ]
+      },
+      {
+        "turmeric_powder": [
+          "red_chilli_powder"
+        ]
+      },
+      {
+        "sunflower_oil": [
+          "corn_oil",
+          "groundnut_oil",
+          "rapeseed_oil"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "bean"
+      },
+      {
+        "text": "nutralite cheesy garlic mayo"
+      },
+      {
+        "text": "summer_salad"
+      },
+      {
+        "text": "tomato_salsa"
+      },
+      {
+        "text": "taco_shell"
+      },
+      {
+        "text": "hariyali_chicken_tikka"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/chicken-tikka-taco-recipe-topped-with-sour-cream-salsa",
+    "title": "Chicken Tikka Taco Recipe Topped With Cheesy Garlic Mayo",
+    "id": 18,
+    "regional": "Mexican",
+    "instructions": [
+      {
+        "text": "To begin making the chicken tikka taco recipe, keep the element ready to assemble the taco."
+      },
+      {
+        "text": " summer salad- red_cabbage salad recipehomemade refried bean- homemade refried beans recipehomemade spicy Mexican salsa- Spicy mexican salsa recipe- tomato_salsa recipehariyali chicken tikka- hariyali_chicken_tikka recipeto assemble the chicken tikka taco, hold the taco in your palm, making sure its easy to add the filling., First in put one tablespoon of homemade refried_bean right at the bottom and spread evenly."
+      },
+      {
+        "text": "Next add a generous layer of fresh summer_salad (buffalo_wing), over this salad place the hariyali_chicken_tikka, then spoon some homemade Mexican salsa and drizzle the nutralite cheesy garlic mayo. Once done, serve the taco immediately for a wholesome and delicious dinner. Serve chicken tikka taco recipe along with vegetable clear soup With lemon grass and rich dark chocolate_mousse recipe as dessert."
+      }
+    ],
+    "substitutions": [
+      {
+        "summer_salad": [
+          "buffalo_wing"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "tomato_ketchup"
+      },
+      {
+        "text": "malt_vinegar"
+      },
+      {
+        "text": "dark_muscovado_sugar"
+      },
+      {
+        "text": "garlic_clove"
+      },
+      {
+        "text": "boneless_chicken_breast"
+      },
+      {
+        "text": "onion"
+      },
+      {
+        "text": "red_pepper"
+      },
+      {
+        "text": "pineapple"
+      },
+      {
+        "text": "sugar_snap_pea"
+      },
+      {
+        "text": "cashew_nut"
+      }
+    ],
+    "url": "https://www.bbcgoodfood.com/recipes/easy-sweet-sour-chicken",
+    "title": "Microwave sweet & sour chicken",
+    "id": 19,
+    "regional": "Chinese",
+    "instructions": [
+      {
+        "text": "step 1 In a large microwaveable dish, mix the ketchup, vinegar, sugar and garlic thoroughly with the chicken, onion (carrot / scallion / shallot) and pepper. microwave, uncovered, on high for 8- 10 min until the chicken is starting to cook and the sauce is sizzling."
+      },
+      {
+        "text": "step 2 Stir in the pineapple (apple_banana / mandarin / mandarin_orange) piece and sugar_snap_pea (string_bean) and return to the microwave for another 3- 5 min until the chicken is completely cooked. Leave to stand for a few minute, then stir in the cashews, if using, and serve."
+      }
+    ],
+    "substitutions": [
+      {
+        "dark_muscovado_sugar": [
+          "papaw"
+        ]
+      },
+      {
+        "boneless_chicken_breast": [
+          "chicken_drumstick",
+          "skinless_chicken_breast"
+        ]
+      },
+      {
+        "onion": [
+          "carrot",
+          "scallion",
+          "shallot"
+        ]
+      },
+      {
+        "red_pepper": [
+          "bell_pepper",
+          "sweet_pepper"
+        ]
+      },
+      {
+        "pineapple": [
+          "apple_banana",
+          "mandarin",
+          "mandarin_orange"
+        ]
+      },
+      {
+        "sugar_snap_pea": [
+          "string_bean"
+        ]
+      },
+      {
+        "cashew_nut": [
+          "cashew"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "aubergine"
+      },
+      {
+        "text": "olive_oil"
+      },
+      {
+        "text": "garlic_clove"
+      },
+      {
+        "text": "cherry_tomato"
+      },
+      {
+        "text": "balsamic_vinegar"
+      },
+      {
+        "text": "caster_sugar"
+      },
+      {
+        "text": "basil_leave"
+      },
+      {
+        "text": "penne_pasta"
+      }
+    ],
+    "url": "https://www.bbcgoodfood.com/recipes/roasted-aubergine-tomato-basil-pasta",
+    "title": "Roasted aubergine, tomato & basil pasta",
+    "id": 20,
+    "regional": "Mediterranean",
+    "instructions": [
+      {
+        "text": "step 1 heat oven to 220c200c fan gas 7. Toss the aubergine (brinjal / eggplant) chunk with the oil and whole garlic_clove in a roasting tin with some seasoning. Roast for 10 min, add the tomato, vinegar and sugar, then cook for another 5 min. Meanwhile, cook the pasta, then drain."
+      },
+      {
+        "text": "step 2 When the veg is tender remove the garlic_clove, snip off their end and squeeze the roasted_garlic onto a board. Mash with a fork, then stir this garlic_paste back into the veg with the basil_leave squashing most of the tomato as you go. tip in the cooked pasta, stir everything together in the roasting tin, divide between 2 bowl, then scatter with a few more basil_leave to serve."
+      }
+    ],
+    "substitutions": [
+      {
+        "aubergine": [
+          "brinjal",
+          "eggplant"
+        ]
+      },
+      {
+        "olive_oil": [
+          "canola_oil",
+          "peanut_oil",
+          "vegetable_oil"
+        ]
+      },
+      {
+        "caster_sugar": [
+          "cane_sugar"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "baking_powder"
+      },
+      {
+        "text": "salt"
+      },
+      {
+        "text": "water_milk"
+      },
+      {
+        "text": "virgin_olive_oil"
+      },
+      {
+        "text": "dry_yeast"
+      },
+      {
+        "text": "clove_garlic"
+      },
+      {
+        "text": "basil_leaves"
+      },
+      {
+        "text": "sugar"
+      },
+      {
+        "text": "red_chilli_flake"
+      },
+      {
+        "text": "parsley_leave_dry"
+      },
+      {
+        "text": "maida_flour"
+      },
+      {
+        "text": "butter"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/garlic-knot-recipe",
+    "title": "Garlic Knot Recipe",
+    "id": 21,
+    "regional": "Fusion",
+    "instructions": [
+      {
+        "text": "To make the garlic knots, prep up with all the ingredient first."
+      },
+      {
+        "text": "Combine yeast, sugar (honey) and warm_water. Let it sit for 5- 10 minute."
+      },
+      {
+        "text": "It looks like a thick creamy paste at this stage."
+      },
+      {
+        "text": "In another few minute 5- 10 minute the mixture will become all frothy and bubbly. Meanwhile, mix all the ingredient mentioned under garlic_butter (coconut_oil / lard / margarine / shortening) spread and keep aside. In a bowl combine flour with salt (nutmeg) and baking_powder."
+      },
+      {
+        "text": "Mix it well."
+      },
+      {
+        "text": "Pour in yeast mixture to it and knead."
+      },
+      {
+        "text": "Add a couple of teaspoon of oil if required. Cover the dough and keep it aside for about 2 hour. After 2 hour, the dough will have risen to be double in its size. Dust the working surface with flour and knead the dough."
+      },
+      {
+        "text": "Use your hand to flatten the kneaded dough to about 8 inch wide. Cut the flattened dough into long strip of about 6- 8 inch. Preheat oven at 375 degree fahrenheit190 degree celsius for 10 minute. Start knotting them by making a loose knot, you will still have dough left at both end."
+      },
+      {
+        "text": "Take the left end of the dough, wrap it over the knot and into the hole of the loose knot."
+      },
+      {
+        "text": "Gently press it down such that the dough is secured within."
+      },
+      {
+        "text": "Repeat the same with the right end -wrap it over the knot and into the hole."
+      },
+      {
+        "text": "press and secure both the end. Repeat the process with the rest of dough and shape all the garlic knot."
+      },
+      {
+        "text": "Arrange them 2 inch apart on a baking tray like with baking sheet. Brush all the roll of garlic knot with garlic herb_butter (coconut_oil / lard / margarine / shortening) spread. bake for 12- 15 minute. Soft, butter (coconut_oil / lard / margarine / shortening)y garlic knot recipe tastes great when fresh out of the oven."
+      },
+      {
+        "text": "You can serve the garlic knot with dip such as low fat vegetable dip recipe with herbs or cottage cheese_dip recipe with pepper and olives."
+      },
+      {
+        "text": "Side it up with spinach corn pasta in whole_wheat white sauce for a delicious dinner indulgence. Serve garlic knots as a tea time snack along with a cup of masala chai and linzer cookie."
+      }
+    ],
+    "substitutions": [
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "virgin_olive_oil": [
+          "canola_oil",
+          "peanut_oil",
+          "vegetable_oil"
+        ]
+      },
+      {
+        "sugar": [
+          "honey"
+        ]
+      },
+      {
+        "red_chilli_flake": [
+          "dried_garlic"
+        ]
+      },
+      {
+        "butter": [
+          "coconut_oil",
+          "lard",
+          "margarine",
+          "shortening"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "salt"
+      },
+      {
+        "text": "ginger"
+      },
+      {
+        "text": "gingelly_oil"
+      },
+      {
+        "text": "clove_garlic"
+      },
+      {
+        "text": "dark_soy_sauce"
+      },
+      {
+        "text": "paneer_ness"
+      },
+      {
+        "text": "turmeric_powder"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/paneer-satay-recipe-healthy-vegetarian-appetizer",
+    "title": "Paneer Satay Recipe",
+    "id": 22,
+    "regional": "North Indian Recipes",
+    "instructions": [
+      {
+        "text": "To begin making the paneer satay recipe, combine the marinade ingredient including ginger (coriander / lemongras), garlic, turmeric_powder (red_chilli_powder), dark_soy_sauce (light_soy_sauce), sesame_oil and salt (nutmeg) in a large bowl. Add the paneer and toss gently to coat the paneer well with the   marinade."
+      },
+      {
+        "text": "Let the paneer marinate for about 30 minute or you can refrigerate overnight if you plan to make it the next day. I like to roast the paneer on a stove top grill, you can also do it in the oven that is preheated at 200 c.place the paneer on the preheated skillet and roast it until it is evenly browned on all side."
+      },
+      {
+        "text": "Keep drizzling some of the marinade as the paneer is roasting, so it absorbs additional flavor. The paneer satay is done when it is has a golden brown color."
+      },
+      {
+        "text": "Transfer the paneer satay onto a serving plate and serve hot. Serve this delicious paneer satay recipe along with peanut dipping_sauce as a party appetiser."
+      }
+    ],
+    "substitutions": [
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "ginger": [
+          "coriander",
+          "lemongras"
+        ]
+      },
+      {
+        "gingelly_oil": [
+          "garland_chrysanthemum"
+        ]
+      },
+      {
+        "dark_soy_sauce": [
+          "light_soy_sauce"
+        ]
+      },
+      {
+        "turmeric_powder": [
+          "red_chilli_powder"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "salt"
+      },
+      {
+        "text": "ginger"
+      },
+      {
+        "text": "red_chilli_powder"
+      },
+      {
+        "text": "green_chilli"
+      },
+      {
+        "text": "coconut"
+      },
+      {
+        "text": "water"
+      },
+      {
+        "text": "chicken_cube"
+      },
+      {
+        "text": "curry_leave"
+      },
+      {
+        "text": "garlic"
+      },
+      {
+        "text": "vinegar"
+      },
+      {
+        "text": "coconut_oil"
+      },
+      {
+        "text": "turmeric_powder"
+      },
+      {
+        "text": "meat_masala"
+      }
+    ],
+    "url": "https://www.archanaskitchen.com/calicut-payyoli-chicken-fry-recipe",
+    "title": "Calicut Payyoli Chicken Fry Recipe",
+    "id": 23,
+    "regional": "Kerala Recipes",
+    "instructions": [
+      {
+        "text": "To begin making the calicut payyoli chicken fry recipe, in a mixing bowl, marinate the chicken_piece with minced_ginger (coriander / lemongras), minced_garlic (bell_pepper / shallot), 1 tablespoon vinegar (lime_juice / orange_juice), turmeric_powder (red_chilli_powder) and salt (nutmeg)."
+      },
+      {
+        "text": "Keep it aside for 15 minute. For the second marination, to the already marinated chicken, add half the kashmiri red_chilli_powder (turmeric_powder (red_chilli_powder)), meat masala_powder, remaining vinegar (lime_juice / orange_juice) and mix well."
+      },
+      {
+        "text": "Keep aside for 1 hour. Take grated_coconut in a small bowl, add remaining kashmiri red_chilli_powder (turmeric_powder (red_chilli_powder)) and mix well."
+      },
+      {
+        "text": "Keep aside. Heat coconut_oil in a pan, add the marinated chicken_piece in oil along with slit green chilly."
+      },
+      {
+        "text": "fry well on low flame. Once the chicken_piece are half cooked, add the grated_coconut mix, and curry leaves to it."
+      },
+      {
+        "text": "Add 100 ml water to allow the chicken to cook well."
+      },
+      {
+        "text": "fry until the water is fully absorbed, and the chicken is well cooked. Serve calicut payyoli chicken fry as a starter for your house party."
+      },
+      {
+        "text": "You can serve it as part of a meal that includes,   south indian style fish curry recipe and steamed_rice"
+      }
+    ],
+    "substitutions": [
+      {
+        "salt": [
+          "nutmeg"
+        ]
+      },
+      {
+        "ginger": [
+          "coriander",
+          "lemongras"
+        ]
+      },
+      {
+        "red_chilli_powder": [
+          "turmeric_powder"
+        ]
+      },
+      {
+        "garlic": [
+          "bell_pepper",
+          "shallot"
+        ]
+      },
+      {
+        "vinegar": [
+          "lime_juice",
+          "orange_juice"
+        ]
+      },
+      {
+        "turmeric_powder": [
+          "red_chilli_powder"
+        ]
+      }
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "text": "vegetable_stock"
+      },
+      {
+        "text": "onion"
+      },
+      {
+        "text": "mixed_mushroom"
+      },
+      {
+        "text": "garlic_clove"
+      },
+      {
+        "text": "basmati_rice"
+      },
+      {
+        "text": "wild_rice"
+      },
+      {
+        "text": "lemon"
+      },
+      {
+        "text": "chive"
+      },
+      {
+        "text": "soft_cheese"
+      },
+      {
+        "text": "garlic"
+      },
+      {
+        "text": "herb"
+      }
+    ],
+    "url": "https://www.bbcgoodfood.com/recipes/lemony-mushroom-pilaf",
+    "title": "Lemony mushroom pilaf",
+    "id": 24,
+    "regional": "British",
+    "instructions": [
+      {
+        "text": "step 1 Put 2 tbsp of the stock in a non- stick pan, then cook the onion (carrot / scallion / shallot) for 5 min until softened add a splash more stock if it starts to dry out. Add mushroom and garlic (bell_pepper / shallot) and cook for 2 min more. Add the rice and lemon (lime / orange)_zest and juice, mixing well. Pour in remaining stock and seasoning and bring to the boil. Turn down, cover and simmer for 25- 30 min until rice is tender. Stir through half each of the chive (dill) and soft_cheese, then serve topped with the remaining chive (dill) and soft_cheese."
+      }
+    ],
+    "substitutions": [
+      {
+        "onion": [
+          "carrot",
+          "scallion",
+          "shallot"
+        ]
+      },
+      {
+        "basmati_rice": [
+          "brown_rice",
+          "jasmine_rice",
+          "rice_noodle",
+          "sticky_rice",
+          "white_rice"
+        ]
+      },
+      {
+        "wild_rice": [
+          "brown_rice"
+        ]
+      },
+      {
+        "lemon": [
+          "lime",
+          "orange"
+        ]
+      },
+      {
+        "chive": [
+          "dill"
+        ]
+      },
+      {
+        "garlic": [
+          "bell_pepper",
+          "shallot"
+        ]
+      },
+      {
+        "herb": [
+          "basil"
+        ]
+      }
+    ]
+  }
+]
