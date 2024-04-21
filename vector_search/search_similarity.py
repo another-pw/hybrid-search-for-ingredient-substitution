@@ -1,9 +1,9 @@
+from pathlib import Path
+from sklearn.neighbors import NearestNeighbors
+from tqdm import tqdm
+
 import json
 import numpy as np
-
-from pathlib import Path
-from tqdm import tqdm
-from sklearn.neighbors import NearestNeighbors
 
 # source: https://towardsdatascience.com/build-a-recipe-recommender-chatbot-using-rag-and-hybrid-search-part-i-c4aa07d14dcf
 def adjust_sparse_vector_weight(sparse_dict, alpha):
@@ -31,9 +31,6 @@ def sparse_dict_to_vector(sparse_dict, max_length):
     
     return sparse_vector
 
-def fusion():
-    pass
-
 def main():
     metric = 'cosine'
     n_neighbors = 10
@@ -44,7 +41,6 @@ def main():
 
     dense_results_export_path = 'data/dense_results.json'
     sparse_results_export_path = 'data/sparse_results.json'
-    substitute_pairs_export_path = 'data/substitute_pairs.json'
 
     with Path(used_ingredients_file).open() as f:
         used_ingredients = json.load(f)
@@ -59,9 +55,10 @@ def main():
     max_length = 0
     for ingredient in tqdm(used_ingredients, desc='finding max length of sparse vector'):
         sparse_dict = sparse_dense_vectors_dict[ingredient]['sparse_vector']
+        idx = 0 if len(sparse_dict.keys()) == 0 else max([int(i) for i in sparse_dict.keys()])
         max_length = max(
             max_length,
-            max([int(i) for i in sparse_dict.keys()]) + 1
+            idx + 1
         )
     
     print(f'sparse vector length: {max_length}')
@@ -137,11 +134,7 @@ def main():
         with Path(dense_results_export_path).open() as f:
             dense_results = list(json.load(f))
     
-    # subtitute_pairs = set()
-    # with Path(substitute_pairs_export_path).open('w') as f:
-    #     json.dump(list(sorted(subtitute_pairs)), f)
-
-    print('finished')
+    print('finished finding similarity of 2 models')
 
 if __name__ == '__main__':
     main()

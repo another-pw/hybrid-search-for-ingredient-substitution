@@ -16,8 +16,11 @@ def to_sparse_vector(text, tokenizer, model):
 
     cols = vec.nonzero().squeeze().cpu().tolist()
     weights = vec[cols].cpu().tolist()
-    sparse_vector = dict(zip(cols, weights))
 
+    if len(vec.nonzero()) == 1:
+        return { cols: weights }
+    
+    sparse_vector = dict(zip(cols, weights))
     return sparse_vector
 
 def to_dense_vector(text, tokenizer, model):

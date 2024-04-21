@@ -19,8 +19,8 @@ def replace_words(text, old_word, new_word):
     return re.sub(pattern, replace, text)
 
 def main():
-    substitute_pairs_file_path = 'adjust_recipe/data/food2vec_5nn_result_1.json'
-    recipes_file_path = 'adjust_recipe/data/new_normalized_recipe_sample.json'
+    substitute_pairs_file_path = 'adjust_recipe/example_substitute_pairs.json'
+    recipes_file_path = 'adjust_recipe/eval_recipes.json'
     new_recipes_export_path = 'adjust_recipe/output/new_recipes.json'
 
     with Path(substitute_pairs_file_path).open() as f:
