@@ -38,14 +38,20 @@ def main():
     with Path(result_2_path).open() as f:
         result_2 = json.load(f)
 
+    with Path('data/cleaned_thai_ingredients_v3.json').open() as f:
+        thai_ingredients = json.load(f)
+        thai_ingredients_set = set(thai_ingredients)
+
     top_k = 5
     subtitute_pairs = set()
     for key in tqdm(result_1.keys(), desc='merging results...'):
-        merged_list = reciprocal_rank_fusion(result_1[key], result_2[key])
-        for item, score in merged_list[:top_k]:
-            subtitute_pairs.add((key, item))
+        if key in result_1 and key in result_2:
+            merged_list = reciprocal_rank_fusion(result_1[key], result_2[key])
+            for item, score in merged_list[:top_k]:
+                if item in thai_ingredients_set:
+                    subtitute_pairs.add((key, item))
 
-    with open('data/merge_result.json', 'w') as f:
+    with open('data/merge_results.json', 'w') as f:
         json.dump(list(sorted(subtitute_pairs)), f)
 
 def test():
